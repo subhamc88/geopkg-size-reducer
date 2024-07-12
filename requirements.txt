@@ -7,7 +7,7 @@ astor==0.8.1
 asttokens==2.4.1
 astunparse==1.6.3
 async-lru==2.0.4
-attrs==23.2.1.dev0
+attrs==23.2.0
 autocommand==2.2.2
 Babel==2.14.0
 beautifulsoup4==4.12.3
@@ -191,7 +191,7 @@ pyxdg==0.28
 PyYAML==6.0.1
 pyzmq==25.1.2
 pyzstd==0.16.0
-qtile==0.26.1.dev0+ge4b4bb8b.d20240523
+qtile==0.26.0
 ranger-fm==1.9.3
 rapidfuzz==3.6.2
 readme_renderer==43.0
@@ -236,7 +236,7 @@ tornado==6.4
 tqdm==4.66.2
 traitlets==5.14.3
 trove-classifiers==2024.5.23
-twine==5.0.1.dev0+g94f810c.d20240510
+twine==5.0.0
 typeguard==4.3.0
 typing_extensions==4.12.2
 tzlocal==5.2
