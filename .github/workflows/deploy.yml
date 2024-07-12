@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.12]  # Add more Python versions as needed
+        python-version: [3.8.7]  # Add more Python versions as needed
 
     steps:
       - uses: actions/checkout@v2
@@ -50,19 +50,5 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Decompress files
-        run: python decompression.py  # Adjust based on your decompression script
-
-      - name: Merge files
-        run: python integrater.py  # Adjust based on your merging script
-
-      - name: Compress files
-        run: python compression.py  # Adjust based on your compression script
-
-      - name: Deploy to production
-        # Add your deployment steps here, like deploying to a server or cloud platform
+    steps      - name: Deploy to production
         run: echo "Deploying to production..."
