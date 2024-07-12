@@ -13,7 +13,7 @@ Babel==2.14.0
 beautifulsoup4==4.12.3
 bleach==6.1.0
 breezy==3.3.8
-Brlapi==0.8.5
+Brlapi==0.8.5-1
 Brotli==1.1.0
 brotlicffi==1.1.0.0
 build==1.2.1
